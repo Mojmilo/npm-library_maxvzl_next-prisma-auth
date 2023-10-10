@@ -1,0 +1,28 @@
+{
+  "name": "@maxvzl-cli/next-prisma-auth",
+  "version": "0.1.0",
+  "description": "commands for auth in next project with prisma",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": ["lib/**/*"],
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.2",
+    "@types/node": "^20.8.4",
+    "@types/prompt-sync": "^4.2.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^11.0.0",
+    "fs-extra": "^11.1.1",
+    "node": "^20.7.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
